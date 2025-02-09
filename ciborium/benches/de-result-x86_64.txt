@@ -1,0 +1,20 @@
+rustc 1.86.0-nightly (854f22563 2025-01-31)
+
+### std
+
+cbor-de-trivial_helloworld
+                        time:   [80.223 ns 80.520 ns 80.841 ns]
+Found 4 outliers among 100 measurements (4.00%)
+  2 (2.00%) low mild
+  2 (2.00%) high mild
+
+Benchmarking cbor-de-twitter.json: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 5.8s, enable flat sampling, or reduce sample count to 60.
+cbor-de-twitter.json    time:   [1.1486 ms 1.1489 ms 1.1493 ms]
+Found 6 outliers among 100 measurements (6.00%)
+  1 (1.00%) low mild
+  3 (3.00%) high mild
+  2 (2.00%) high severe
+
+cbor-de-citm_catalog.json
+                        time:   [2.3031 ms 2.3040 ms 2.3050 ms]

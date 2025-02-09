@@ -1,0 +1,3 @@
+[submodule "dag-cbor-benchmark"]
+	path = dag-cbor-benchmark
+	url = https://github.com/DavidBuchanan314/dag-cbor-benchmark

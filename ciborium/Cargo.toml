@@ -30,10 +30,16 @@ serde_bytes = "0.11"
 rstest = "0.24.0"
 rand = "0.8"
 hex = "0.4"
+# For stack stabilizer, see: https://github.com/bheisler/criterion.rs/pull/744
+criterion.git = "https://github.com/oxalica/criterion.rs.git"
 
 [features]
 default = ["std"]
 std = ["ciborium-io/std", "serde/std"]
+
+[[bench]]
+name = "de"
+harness = false
 
 [package.metadata.docs.rs]
 all-features = true
