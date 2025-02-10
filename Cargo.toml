@@ -6,3 +6,6 @@ members = [
     "ciborium-io",
     "ciborium-ll",
 ]
+
+[workspace.dependencies]
+shift-dfa-utf8.git = "https://github.com/oxalica/shift-dfa-utf8.git"

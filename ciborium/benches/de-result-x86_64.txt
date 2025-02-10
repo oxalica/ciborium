@@ -18,3 +18,27 @@ Found 6 outliers among 100 measurements (6.00%)
 
 cbor-de-citm_catalog.json
                         time:   [2.3031 ms 2.3040 ms 2.3050 ms]
+
+### shift-dfa-utf8 0570f11857236c4663b6b20b590f530e54085b0f
+
+cbor-de-trivial_helloworld
+                        time:   [83.062 ns 83.331 ns 83.610 ns]
+                        change: [+3.2623% +3.7322% +4.2310%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 4 outliers among 100 measurements (4.00%)
+  1 (1.00%) high mild
+  3 (3.00%) high severe
+
+Benchmarking cbor-de-twitter.json: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 5.7s, enable flat sampling, or reduce sample count to 60.
+cbor-de-twitter.json    time:   [1.1365 ms 1.1369 ms 1.1373 ms]
+                        change: [−1.1106% −1.0641% −1.0210%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 3 outliers among 100 measurements (3.00%)
+  1 (1.00%) low mild
+  2 (2.00%) high mild
+
+cbor-de-citm_catalog.json
+                        time:   [2.4292 ms 2.4324 ms 2.4355 ms]
+                        change: [+5.4277% +5.5706% +5.7139%] (p = 0.00 < 0.05)
+                        Performance has regressed.

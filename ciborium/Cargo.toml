@@ -24,6 +24,7 @@ is-it-maintained-open-issues = { repository = "enarx/ciborium" }
 ciborium-ll = { path = "../ciborium-ll", version = "0.2.2" }
 ciborium-io = { path = "../ciborium-io", version = "0.2.2", features = ["alloc"] }
 serde = { version = "1.0.170", default-features = false, features = ["alloc", "derive"] }
+shift-dfa-utf8.workspace = true
 
 [dev-dependencies]
 serde_bytes = "0.11"
